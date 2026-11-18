@@ -24,14 +24,12 @@ body {
     padding: 36px 20px;
 }
 
-/* Single-Column Container */
 header, main {
     max-width: 820px;
     margin: 0 auto;
     background-color: var(--main-bg);
 }
 
-/* Header Styling */
 header {
     background-color: var(--header-bg);
     color: #f8fafc;
@@ -75,7 +73,6 @@ header a:hover {
     text-decoration: underline;
 }
 
-/* Main Content Styling */
 main {
     padding: 36px 44px 44px;
     border-bottom-left-radius: 12px;
@@ -101,7 +98,6 @@ section p {
     font-size: 14.5px;
 }
 
-/* Skills & Bullet Lists */
 ul {
     padding-left: 18px;
     display: flex;
@@ -114,7 +110,6 @@ ul li strong {
     color: var(--text-dark);
 }
 
-/* Projects & Education Articles */
 article {
     margin-bottom: 18px;
 }
@@ -149,7 +144,6 @@ article p {
     margin-bottom: 8px;
 }
 
-/* Print / PDF Export Optimization */
 @media print {
     body {
         background: none;

@@ -3,66 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Professional CV</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Virtue Nashwa | Data Engineer CV</title>
+    <link rel="stylesheet" href="cvstyle.css">
+
 </head>
 <body>
-    <div class="cv-container">
-        <!-- Header Section -->
-        <header class="cv-header">
-            <h1>Virtue Nashwa</h1>
-            <p class="tagline">Full-Stack Web & AI Developer | Aspiring Tech Professional</p>
-            <div class="contact-info">
-                <span>📧 email@example.com</span>
-                <span>📞 +27 12 345 6789</span>
-                <span>📍 Centurion, South Africa</span>
-                <a href="https://linkedin.com" target="_blank">LinkedIn</a>
-            </div>
-        </header>
 
-        <!-- About / Bio Section -->
-        <section class="cv-section">
-            <h2>About Me</h2>
+    <header>
+        <h1>Virtue Nashwa</h1>
+        <p><strong>Data Engineer</strong></p>
+        <p>
+            Centurion, South Africa | 
+            <a href="mailto:virtuenashwa@gmail.com">virtuenashwa@gmail.com</a> | 
+            <a href="tel:0710231728">071 023 1728</a> | 
+            <a href="https://github.com/virtuenashwa-ship-it" target="_blank">GitHub Profile</a> | 
+            <a href="https://www.linkedin.com/in/virtue-nashwa-9bb825450/" target="_blank">LinkedIn</a>
+        </p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Professional Summary</h2>
             <p>
-                Motivated and detail-oriented software development student currently enrolled in an intensive Full-Stack Web and AI Development bootcamp. Passionate about building robust web applications, solving complex problems, and continuously expanding technical capabilities across multiple modern programming paradigms.
-            </p>
-            <p>
-                Eager to leverage strong analytical skills and foundational coding knowledge to contribute to dynamic software engineering teams and deliver impactful digital solutions.
+                I am a South African Data Engineer with practical skills in Python, SQL, and building automated data workflows. I am currently completing a Web and AI Development bootcamp at HyperionDev, graduating in January 2027, which also gives me a solid background in JavaScript and API integration. I am targeting Data Engineering roles, local or remote, starting in January 2027.
             </p>
         </section>
 
-        <!-- Skills Section -->
-        <section class="cv-section">
-            <h2>Skills</h2>
-            <ul class="skills-list">
-                <li>HTML5 & CSS3</li>
-                <li>JavaScript (ES6+)</li>
-                <li>Git & GitHub Version Control</li>
-                <li>Responsive Web Design</li>
-                <li>Data Normalization & Logic</li>
-                <li>Python & Web Fundamentals</li>
+        <section>
+            <h2>Technical Skills</h2>
+            <ul>
+                <li><strong>Data &amp; Databases:</strong> Python, SQL, PostgreSQL, ETL Pipelines, JSON &amp; Data Cleaning</li>
+                <li><strong>Backend &amp; APIs:</strong> Node.js, Express, REST API Integration, JavaScript (ES6+)</li>
+                <li><strong>AI &amp; Developer Tools:</strong> Generative AI / LLM APIs, Prompt Engineering, Git, GitHub</li>
             </ul>
         </section>
 
-        <!-- Work Experience Section -->
-        <section class="cv-section">
-            <h2>Work Experience</h2>
-            <div class="job-item">
-                <h3>Junior Project Contributor / Developer</h3>
-                <span class="job-date">2024 - Present</span>
-                <p>Designed and deployed various full-stack applications and static websites, implementing modular software architecture, responsive layouts, and local state management solutions.</p>
-            </div>
+        <section>
+            <h2>Technical Projects</h2>
+
+            <article>
+                <h3>
+                    Automated Financial Market Telemetry Pipeline 
+                    (<a href="https://github.com/AI-Finance-Data-Pipeline" target="_blank">GitHub Repository</a>)
+                </h3>
+                <p><em>Python, PostgreSQL, REST APIs, JSON</em></p>
+                <ul>
+                    <li>Built an automated Python ingestion script to fetch, parse, and structure live USD/ZAR market telemetry from public financial REST APIs.</li>
+                    <li>Designed a relational PostgreSQL database schema to store historical price records and calculate moving averages using custom SQL queries.</li>
+                    <li>Implemented timestamp logging and error handling to ensure reliable data collection during continuous API polling cycles.</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>
+                    AI-Integrated Web &amp; Data Workflows 
+                    (<a href="https://github.com" target="_blank">GitHub Profile</a>)
+                </h3>
+                <p><em>JavaScript, Node.js, Generative AI APIs, Git</em></p>
+                <ul>
+                    <li>Built modular JavaScript applications connecting external API endpoints to process and display structured data payloads dynamically.</li>
+                    <li>Used AI-assisted debugging and testing workflows to speed up code validation and eliminate syntax errors across repositories.</li>
+                </ul>
+            </article>
         </section>
 
-        <!-- Education Section -->
-        <section class="cv-section">
-            <h2>Education</h2>
-            <div class="edu-item">
+        <section>
+            <h2>Education &amp; Certifications</h2>
+
+            <article>
                 <h3>Full-Stack Web and AI Development Bootcamp</h3>
-                <span class="edu-date">HyperionDev</span>
-                <p>Comprehensive training covering frontend architecture, backend logic, data structuring, and modern deployment workflows.</p>
-            </div>
+                <p>HyperionDev | Expected January 2027</p>
+            </article>
+
+            <article>
+                <h3>Relational Database &amp; Python Data Certifications</h3>
+                <p>freeCodeCamp | 2026</p>
+            </article>
         </section>
-    </div>
+    </main>
+
 </body>
 </html>

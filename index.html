@@ -14,7 +14,7 @@
             <p><strong>Data Engineer</strong></p>
             <p>
                 Centurion, South Africa | 
-                <a href="mailto:virtuenashwa@gmail.com">virtuenashwa@gmail.com</a> | 
+                <a href="mailto:virtuenashwa@gmail.com" target="_blank">virtuenashwa@gmail.com</a> | 
                 <a href="tel:0710231728">071 023 1728</a> | 
                 <a href="https://github.com/virtuenashwa-ship-it" target="_blank">GitHub Profile</a> | 
                 <a href="https://www.linkedin.com/in/virtue-nashwa-9bb825450/" target="_blank">LinkedIn</a>
@@ -36,6 +36,37 @@
                     <li><strong>Backend &amp; APIs:</strong> Node.js, Express, REST API Integration, JavaScript (ES6+)</li>
                     <li><strong>AI &amp; Developer Tools:</strong> Generative AI / LLM APIs, Prompt Engineering, Git, GitHub</li>
                 </ul>
+            </section>
+
+            <section>
+                <h2>Projects</h2>
+
+                <article>
+                    <h3>Automated Weather ETL Pipeline (Medallion Architecture) <a href="https://github.com/virtuenashwa-ship-it/Weather-Data-Medallion-ETL-Pipeline" target="_blank">GitHub</a></h3>
+                    <p>Python, Pandas, DuckDB, Parquet, Requests, Tenacity</p>
+                    <ul>
+                        <li>Extracts multi-city hourly weather forecasts from the Open-Meteo REST API with retry/backoff error handling and archives raw JSON payloads to a Bronze layer.</li>
+                        <li>Validates schema, null, and temperature range rules before persisting cleaned Silver tables to DuckDB and Parquet and building Gold daily summary and latest-reading tables.</li>
+                    </ul>
+                </article>
+
+                <article>
+                    <h3>Financial Market Data Pipeline <a href="https://github.com/virtuenashwa-ship-it/Financial-Market-Pipeline" target="_blank">GitHub</a></h3>
+                    <p>Python, Pandas, Requests, Tenacity, SQLite</p>
+                    <ul>
+                        <li>Extracts live USD and ZAR digital asset market data with exponential backoff retries and archives raw JSON snapshots.</li>
+                        <li>Calculates implied USD/ZAR exchange rates, flags high 24-hour volatility, and loads history into SQLite with an analytical SQL view.</li>
+                    </ul>
+                </article>
+
+                <article>
+                    <h3>Retail Data Warehouse (CSV to SQLite) <a href="https://github.com/virtuenashwa-ship-it/Messy-CSV-Retail-Data-Warehouse" target="_blank">GitHub</a></h3>
+                    <p>Python, Pandas, SQL, SQLite</p>
+                    <ul>
+                        <li>Ingests messy retail CSVs, standardizes dates and ZAR currency values, removes duplicates, and models customer, product, and sales tables.</li>
+                        <li>Supports idempotent upserts and exposes a daily category and region sales view for reporting.</li>
+                    </ul>
+                </article>
             </section>
 
             <section>
